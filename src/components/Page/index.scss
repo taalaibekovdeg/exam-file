@@ -33,14 +33,15 @@
             align-items: flex-end;
         
                 button {
-                width: 183px;
-                height: 44px;
+                width: 153px;
+                height: 34px;
+                border: none;
                 left: 1657px;
                 top: 38px;
                 background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
                  border-radius: 50px;
                  font-weight: 400;
-font-size: 16px;
+font-size: 14px;
 line-height: 150%;
 /* identical to box height, or 24px */
 
@@ -262,7 +263,8 @@ color: #FFFFFF;
      }
      .start {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        flex-direction: column;
 
         &--title {
             display: flex;
@@ -274,6 +276,15 @@ color: #FFFFFF;
     line-height: 140%;
     margin: 0 20px;
             }
+        }
+        p {
+            padding: 0 60px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+          
+            
+            opacity: 0.5;
         }
      }
 

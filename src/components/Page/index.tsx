@@ -2,7 +2,8 @@ import React from 'react';
 import "./index.scss"
 import logo from "../../Image/logo.png"
 import apparat from "../../Image/apparat.png"
-import ellipse from "../../Image/ellipse.png"
+import ellipse from  "../../Image/ellipse.png"
+
 
 const Page = ({dark, setDark}: any) => {
 
@@ -103,6 +104,7 @@ const Page = ({dark, setDark}: any) => {
                     <img src={ellipse} alt="" />
                     <h2>Быстрый старт</h2>
                     </div>
+                    <p>Больше 90% учеников прошли полный курс и смогли <br /> собрать свой первый компьютер</p>
                     
                </div>
                </div>
